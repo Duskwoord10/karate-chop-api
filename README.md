@@ -46,6 +46,14 @@ docker rm karatechopapi
 
 ## API Endpoints
 
+### Swagger UI
+
+To see Swagger UI for endpoint exploration navigate to:
+
+```
+http://localhost:8080/swagger/
+```
+
 ### Welcome Endpoint
 
 You can check if the API is running by navigating to:
@@ -65,7 +73,7 @@ Welcome to KarateChop API!
 To perform a binary search, use the following endpoint:
 
 ```
-http://localhost:8080/search?target=7&array=1,3,5,7,9,11,13,15
+http://localhost:8080/chop?target=7&array=1,3,5,7,9,11,13,15
 ```
 
 #### Parameters
